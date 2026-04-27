@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mostafa Ahmed, a Computer Engineering student building open-source web, Java, C, and systems projects." />
+  <meta name="theme-color" content="#05060a" />
+  <meta property="og:title" content="Mostafa Ahmed | Portfolio" />
+  <meta property="og:description" content="Selected software projects, stack, and contact links for Mostafa Ahmed." />
+  <meta property="og:type" content="website" />
+  <title>Mostafa Ahmed</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cur"></div>
+  <div class="cursor-ring" id="curRing"></div>
+
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">mostafa<span>.</span></a>
+    
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#contact">Contact</a></li>
+      
+      <li class="divider"></li>
+      
+      <li>
+        <a href="mailto:momoformostafa@gmail.com" title="Email" class="nav-icon">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/mostafa-ahmed-4b6898327" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="nav-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/TheGreatMostafa" target="_blank" rel="noopener noreferrer" title="GitHub" class="nav-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-bg-glow"></div>
+    <div class="hero-bg-glow2"></div>
+
+    <div class="hero-linenums" aria-hidden="true">
+      <span>01</span><span>02</span><span>03</span><span>04</span><span>05</span>
+      <span>06</span><span>07</span><span>08</span><span>09</span><span>10</span>
+      <span>11</span><span>12</span><span>13</span><span>14</span><span>15</span>
+    </div>
+
+    <h1 class="hero-title">
+      <span class="line1">Hey, I'm</span><br>
+      <span class="line2">Mostafa</span>
+    </h1>
+
+    <p class="hero-sub">
+      Computer Engineering student<br>
+      <strong>@ Zagazig University</strong><br>
+      passionate about open source &amp; the web.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#work" class="btn btn-primary">
+        <span>→ See my work</span>
+      </a>
+      <a href="#about" class="btn btn-outline">
+        <span>→ More about me</span>
+      </a>
+    </div>
+
+    <div class="hero-scroll">
+      <span class="scroll-label">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-label">About</div>
+    <h2 class="section-title">
+      A dev who cares<br>
+      about the details
+    </h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm <strong>Mostafa Ahmed</strong>, a second-year Computer Engineering student at Zagazig University, Egypt.</p>
+        <p>I'm passionate about software development and currently focusing heavily on open source development — bringing interactive ideas and systems to life on the web.</p>
+        <p>I work with C, C++, Java, Python, and web technologies. Always learning, always building.</p>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat">
+          <div class="stat-num">2nd</div>
+          <div class="stat-label">Year — Comp. Eng.</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">11</div>
+          <div class="stat-label">Languages &amp; tools</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">OS</div>
+          <div class="stat-label">Open source focus</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">EG</div>
+          <div class="stat-label">Minya Elqamh, Egypt</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="section-label">Work</div>
+    <h2 class="section-title">Projects</h2>
+    <div class="work-grid">
+
+      <div class="work-card">
+        <div class="work-bracket-br"></div>
+        <div class="work-num">01</div>
+        <div>
+          <div class="work-card-title">GroupSpeak</div>
+          <p class="work-desc">A client-server group chat application built with JavaFX and SQLite. Features a custom binary protocol for real-time messaging, secure authentication, and session management.</p>
+        </div>
+        <div class="work-footer">
+          <div class="work-tags">
+            <span class="tag">Java</span>
+            <span class="tag">JavaFX</span>
+            <span class="tag">SQLite</span>
+          </div>
+          <a href="https://github.com/TheGreatMostafa/groupspeak" target="_blank" rel="noopener noreferrer" class="work-arrow" aria-label="Open GroupSpeak on GitHub">↗</a>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-bracket-br"></div>
+        <div class="work-num">02</div>
+        <div>
+          <div class="work-card-title">JIF-8 Emulator</div>
+          <p class="work-desc">A fully functional CHIP-8 emulator written in Java. Features custom CPU instruction decoding (fetch-decode-execute cycle), memory management, and dynamic display rendering.</p>
+        </div>
+        <div class="work-footer">
+          <div class="work-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Emulation</span>
+            <span class="tag">Maven</span>
+          </div>
+          <a href="https://github.com/TheGreatMostafa/jif-8" target="_blank" rel="noopener noreferrer" class="work-arrow" aria-label="Open JIF-8 Emulator on GitHub">↗</a>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-bracket-br"></div>
+        <div class="work-num">03</div>
+        <div>
+          <div class="work-card-title">ASCII Video Player</div>
+          <p class="work-desc">A command-line tool written in C that converts and plays standard video files entirely as ASCII art directly in the terminal in real-time.</p>
+        </div>
+        <div class="work-footer">
+          <div class="work-tags">
+            <span class="tag">C</span>
+            <span class="tag">CMake</span>
+            <span class="tag">CLI</span>
+          </div>
+          <a href="https://github.com/TheGreatMostafa/asciivideoproject" target="_blank" rel="noopener noreferrer" class="work-arrow" aria-label="Open ASCII Video Player on GitHub">↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="skills-section" id="stack">
+    <div class="section-label">Stack</div>
+    <h2 class="section-title">What I work with</h2>
+    <div class="skills-grid">
+      <div class="skill-item"><div class="skill-icon">01/</div><div class="skill-name">C / C++</div><div class="skill-sub">Systems &amp; algorithms</div></div>
+      <div class="skill-item"><div class="skill-icon">02/</div><div class="skill-name">Java</div><div class="skill-sub">OOP, JavaFX</div></div>
+      <div class="skill-item"><div class="skill-icon">03/</div><div class="skill-name">Python</div><div class="skill-sub">Scripting &amp; automation</div></div>
+      <div class="skill-item"><div class="skill-icon">04/</div><div class="skill-name">JavaScript</div><div class="skill-sub">HTML5, CSS3, Web</div></div>
+      <div class="skill-item"><div class="skill-icon">05/</div><div class="skill-name">Databases</div><div class="skill-sub">MySQL, SQLite</div></div>
+      <div class="skill-item"><div class="skill-icon">06/</div><div class="skill-name">Git &amp; GitHub</div><div class="skill-sub">Version control, OSS</div></div>
+      <div class="skill-item"><div class="skill-icon">07/</div><div class="skill-name">JavaFX</div><div class="skill-sub">Desktop UI apps</div></div>
+      <div class="skill-item"><div class="skill-icon">08/</div><div class="skill-name">Open Source</div><div class="skill-sub">Contributor &amp; builder</div></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="section-label">Contact</div>
+      <div class="contact-big">
+        Let's build<br>
+        something<span class="accent-dot">.</span>
+      </div>
+      <p class="contact-sub">
+        Open for freelance work, collaborations, or just a good conversation about code.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:momoformostafa@gmail.com" class="contact-link"><span class="arr">↗</span> Email</a>
+        <a href="https://github.com/TheGreatMostafa" class="contact-link" target="_blank" rel="noopener noreferrer"><span class="arr">↗</span> GitHub</a>
+        <a href="https://www.linkedin.com/in/mostafa-ahmed-4b6898327" class="contact-link" target="_blank" rel="noopener noreferrer"><span class="arr">↗</span> LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-copy">
+      Mostafa Ahmed © 2026
+    </div>
+    <div class="footer-made">
+      Designed &amp; coded by
+      <span class="accent"> Mostafa</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
